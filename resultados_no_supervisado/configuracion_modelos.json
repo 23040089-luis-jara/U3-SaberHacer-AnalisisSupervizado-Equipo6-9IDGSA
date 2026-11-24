@@ -1,0 +1,31 @@
+{
+  "registros_analizados": 1214,
+  "variables_utilizadas": [
+    "Latitude",
+    "Longitude",
+    "Elevation (m)",
+    "Volcano Landform",
+    "Primary Volcano Type",
+    "Tectonic Setting",
+    "Dominant Rock Type"
+  ],
+  "variables_excluidas_del_agrupamiento": [
+    "Activity Evidence",
+    "Last Known Eruption",
+    "Volcano Name"
+  ],
+  "kmeans_k_optimizado": 8,
+  "dbscan_mejor_configuracion": {
+    "eps": 1.887,
+    "min_samples": 15,
+    "clusters": 2,
+    "noise_percent": 14.250411861614499,
+    "Silhouette": 0.11074714151759062,
+    "Calinski_Harabasz": 64.48267815879483,
+    "Davies_Bouldin": 1.866895409374603
+  },
+  "pca_varianza_explicada": [
+    0.22626322708379715,
+    0.17930355461282405
+  ]
+}
